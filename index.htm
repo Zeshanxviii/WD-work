@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      td{
+          font-weight: 700;
+      }
+      body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        font-size: 17px;
+      }
+      pre {
+        font-weight: bold;
+      }
+      table,
+      td,
+      th {
+        border: solid 2px black;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+      }
+      .day {
+        background: pink;
+      }
+      
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      /* .time {
+        background: magenta;
+      } */
+      #first{
+        background: magenta;
+      }
+      .Lunch {
+        font-weight: 700;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Time Table</h1>
+      <table style="width: 900px; height: 600px">
+        <tr id="first">
+          <th class="time">Day/Period</th>
+          <th class="time">
+            I
+            <br />
+            9:30-10:30
+          </th>
+
+          <th class="time">
+            II
+            <br />
+            10:30-11:10
+          </th>
+
+          <th class="time">
+            III <br />
+            11:10-12:00
+          </th>
+          <th class="time">12:00-12:40</th>
+          <th class="time">
+            IV
+            <br />
+            12:40-1:30
+          </th>
+          <th class="time">
+            V
+            <br />
+            1:30-2:30
+          </th>
+          <th class="time">
+            VI
+            <br />
+            2:30-3:10
+          </th>
+          <th class="time">
+            VII
+            <br />
+            3:10-4:00
+          </th>
+        </tr>
+        <tr>
+          <th class="day">Monday</th>
+          <td>Eng</td>
+          <td>Math</td>
+          <td>Che</td>
+          <td rowspan="6" class="Lunch">
+            L 
+            <br>
+            U
+             <br>
+             N 
+             <br>C 
+             <br>H
+          </td>
+          <td colspan="3">Lab</td>
+          <td>Phy</td>
+        </tr>
+        <tr>
+          <th class="day">Tuesday</th>
+          <td colspan="3">Lab</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td>Mat</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <th class="day">Wednesday</th>
+          <td>Mat</td>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td colspan="3">library</td>
+        </tr>
+        <tr>
+          <th class="day">Thursday</th>
+          <td>Phy</td>
+          <td>Eng</td>
+          <td>Che</td>
+          <td colspan="3">lab</td>
+          <td>Mat</td>
+        </tr>
+        <tr>
+          <th class="day">Friday</th>
+          <td colspan="3">lab</td>
+          <td>mat</td>
+          <td>Che</td>
+          <td>Eng</td>
+          <td>phy</td>
+        </tr>
+        <tr>
+          <th class="day">Saturday</th>
+          <td>Eng</td>
+          <td>Che</td>
+          <td>Mat</td>
+          <td colspan="3">Seminar</td>
+          <td>Sports</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
