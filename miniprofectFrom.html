@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        body {
+            /* background-color: aqua; */
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        .end{
+            margin-left: 30%;
+        }
+        table{
+            border:1px solid black;
+            padding: 5px;
+            background-color: lightblue;
+        }
+
+          /* color: white; */
+        /* } */
+    </STYle>
+</head>
+
+<body>
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <table>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="surname">Surname</label></td>
+            <td><input type="text" id="surname"></td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td><select name="dob" id="dob">
+                    <option value="1" selected disabled>Day</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                    <option value="4">3</option>
+                    <option value="5">4</option>
+                    <option value="6">5</option>
+                    <option value="7">6</option>
+                    <option value="8">7</option>
+                    <option value="9">8</option>
+                    <option value="10">9</option>
+                    <option value="11">10</option>
+                    <option value="12">11</option>
+                    <option value="13">12</option>
+                    <option value="14">14</option>
+                </select>
+                <select name="dob" id="dob">
+                    <option value="1" selected disabled>Month</option>
+                    <option value="2">January</option>
+                    <option value="3">February</option>
+                    <option value="4">March</option>
+                    <option value="5">April</option>
+                    <option value="6">May</option>
+                    <option value="7">June</option>
+                    <option value="8">July</option>
+                    <option value="9">August</option>
+                    <option value="10">September</option>
+                    <option value="11">October</option>
+                    <option value="12">November</option>
+                    <option value="13">December</option>
+                </select>   
+                <select name="dob" id="dob">
+                    <option value="1" selected disabled>year</option>
+                    <option value="2">2021</option>
+                    <option value="3">2022</option>
+                    <option value="4">2023</option>
+                    <option value="5">2024</option>
+                    <option value="6">2025</option>
+                    <option value="7">2026</option>
+                    <option value="8">2027</option>
+                    <option value="9">2028</option>
+                    <option value="10">2029</option>
+                    <option value="11">2030</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email"></td>
+        </tr>
+        <tr>
+            <td><label for="mobile">Mobile</label></td>
+            <td><input type="number" id="mobile"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="city">City</label></td>
+            <td><input type="text" id="city"></td>
+        </tr>
+        <tr>
+            <td><label for="state">State</label></td>
+            <td><input type="text" id="state"></td>
+        </tr>
+        <tr>
+            <td><label for="country">Country</label></td>
+            <td><input type="text" id="country"></td>
+        </tr>
+        <tr>
+            <td><label for="pincode">Pincode</label></td>
+            <td><input type="number" id="pincode"></td>
+        </tr>
+        <tr>
+            <td><label for="hobbie">Hobbies</label></td>
+            <td><input type="checkbox" name="hobbie" value="Cricket" id="hobbie">Drawing
+                <input type="checkbox" name="hobbie" value="Kabaddi" id="hobbie">Singing
+                <input type="checkbox" name="hobbie" value="Karate" id="hobbie">Dancing
+                <input type="checkbox" name="hobbie" value="Karate" id="hobbie">Sketching
+                <input type="checkbox">other
+            </td>
+        </tr>
+        <tr>
+            <td><label for="qualification">Qualification</label>
+
+            </td>
+            <td>
+     <table
+        <tr>
+            <th>S No. </th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Class X</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Masters</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+
+    </table>
+
+        </td>
+        </tr>
+
+        <tr>
+            <td>Course Appied <br>  for</td>
+
+            <td>
+                <label for">bca</label>
+                <input type="checkbox" id="ba">
+                <label for="bcom">bcom</label>
+                <input type="checkbox" id="bcom">
+                <label for="bA">B A</label>
+                <input type="checkbox" id="bA">
+            </td>
+                
+        </tr>
+        <tr>
+            <td></td>
+            <td class="end">
+                <input  type="submit" value="Submit">
+                <input class="end" type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
